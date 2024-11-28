@@ -32,7 +32,6 @@ class ExercisesMethods():
      except Exception as exception:
         exception("something went wrong in FindAreaByTriangleSides Method!")
     
-    
     @staticmethod
     def ConvertCelsIntoFarenhit(degree: int):
         try:
