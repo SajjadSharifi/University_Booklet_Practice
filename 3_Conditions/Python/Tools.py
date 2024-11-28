@@ -5,7 +5,7 @@ class Tools:
     def dateFormatter(date: str):
         if isinstance(date, str):
             dateHolder = ""
-            
+            #تبدیل کردن عدد 8 رقمیمون به یک فرمت تاریخ
             for i in range(8): 
              dateHolder += date[i]
              if len(dateHolder) == 4:
@@ -16,6 +16,7 @@ class Tools:
             return dateHolder
     
     @staticmethod
+   #بتبدیل کردن یک تاریخ فرمت شده مثل 1403/01/03 به یک لیست عددی 
     def dateToInt(date: str):
         if isinstance(date, str):
             intedDate = list()
